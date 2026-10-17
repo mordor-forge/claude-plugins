@@ -1,0 +1,46 @@
+{
+  "name": "mordor-forge",
+  "owner": {
+    "name": "mordor-forge",
+    "url": "https://github.com/mordor-forge"
+  },
+  "description": "Plugins from mordor-forge: generative media and 3D for coding agents.",
+  "plugins": [
+    {
+      "name": "gemini-media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mordor-forge/gemini-media-mcp.git",
+        "ref": "v1.1.0"
+      },
+      "description": "Generate images, video, speech and music with Google's Gemini media models, with cost estimates and budgets.",
+      "category": "design",
+      "tags": [
+        "images",
+        "video",
+        "audio",
+        "music",
+        "gemini",
+        "mcp"
+      ]
+    },
+    {
+      "name": "trident",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mordor-forge/trident-mcp.git",
+        "ref": "tripo-deep-client"
+      },
+      "description": "Generate, texture, retopologize, rig, animate and convert 3D models with the Tripo 3D API.",
+      "category": "design",
+      "tags": [
+        "3d",
+        "tripo",
+        "game-assets",
+        "rigging",
+        "3d-printing",
+        "mcp"
+      ]
+    }
+  ]
+}
